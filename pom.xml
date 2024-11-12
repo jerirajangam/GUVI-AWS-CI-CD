@@ -32,8 +32,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.2</version>
 	    <configuration>
-                <!-- Specify where the web.xml file is located -->
-                <webXml>${project.basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+ 		<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
             </configuration>
         </plugin>
     </plugins>
